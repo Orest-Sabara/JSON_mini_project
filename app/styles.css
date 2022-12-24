@@ -1,0 +1,84 @@
+/*general styles*/
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    text-align: center;
+    width: 30%;
+    background: black;
+    color: white;
+}
+
+a:link, a:visited {
+    margin-top: 7px;
+    background-color: #dc6b62;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 60%;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+/*index.html*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+}
+
+/*user-details.html*/
+.target {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+}
+
+.btn {
+    background-color: #aba6a6;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/*post-details.html*/
+.posts-details {
+    background: #212121;
+    margin: 7px;
+    padding: 12px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+.comments-details {
+    background: #fafac7;
+    padding-left: 3%;
+    padding-right: 2%;
+}
